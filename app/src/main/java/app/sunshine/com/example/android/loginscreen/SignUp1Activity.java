@@ -20,8 +20,8 @@ public class SignUp1Activity extends AppCompatActivity {
         getWindow().setBackgroundDrawableResource(R.mipmap.box);
         this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
 
-        register=findViewById(R.id.register);
-        goLogin=findViewById(R.id.goLogin);
+        register=findViewById(R.id.signup_btn);
+        goLogin=findViewById(R.id.login_link);
         goLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
